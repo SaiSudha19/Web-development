@@ -1,0 +1,28 @@
+#id1{
+    background-color: lightgreen;
+}
+*{
+    background-color: lightcyan;
+}
+div{
+    background-color: lightseagreen;
+}
+.cl1{
+    background-color: lightcoral;
+}
+/* 
+order of inheritance=*<element<class<id 
+id is highest order of presidence
+* is lowest order of presidence
+*-applies to all
+div/p-applies to that tye of element
+.abc-applies to class abc
+#xyz-applies to id xyz
+*/
+#id1{
+    background-color: rgb(203, 144, 238);
+}
+/*recent allotment will if applied in case of same id and function*/
+.cl1{
+    background-color: blanchedalmond;
+}

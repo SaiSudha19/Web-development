@@ -1,0 +1,23 @@
+.box{
+    margin: 20px;
+    padding: 10px;
+    border: solid black 3px;
+    /* border creates it's own space 
+    if we conside div 2 margin takes color of parent,
+    padding takes color of itself i.e. color of div,
+    margin is outside of border ;
+    padding is inside the border
+    if we use too munch border or anything if the browser doesn't have the 
+    requerir=ed space then the last data will overflow as the htmli read 
+    data from top to bottom it allot all functions to the top data first*/
+}
+#div1{
+    background-color: lightblue;
+}
+#div2{
+    background-color: orange;
+}
+#div3{
+    background-color: greenyellow;
+}
+/* ctrl+ then page size channges */

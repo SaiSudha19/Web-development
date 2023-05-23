@@ -1,0 +1,12 @@
+h2+p{
+    font-weight: bold;
+}
+h2~p{
+    color: brown;
+}
+section> p{
+    background-color: aqua;
+}
+section p{
+    color: rebeccapurple;
+}

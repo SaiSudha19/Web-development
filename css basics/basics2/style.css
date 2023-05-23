@@ -1,0 +1,29 @@
+* {
+    color: red;
+}/* global i.e,applied for everything */
+body{
+    margin-top: 50px;
+}
+/* if we apply margin-top: 50px; in global then we get 50px gap between every line 
+where as here we get gap on the top of the body */
+div{
+    margin-left: 30px;
+}
+p{
+    font-size: 30px;
+}
+#p2{
+    font-family: "Courier";
+}/*for selecting id we use # */ 
+#p3{
+    margin-left: 20px;
+}
+.osmpara{
+    background-color: #880088;
+    /*88 red 00 green 88 blue 
+    or we use directly write name of color*/
+}
+/*for selecting classes we use dot*/
+.bigpara{
+    font-size: 50px;
+}

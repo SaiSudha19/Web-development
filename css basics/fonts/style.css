@@ -1,0 +1,26 @@
+#para1{
+    font-size: 30px;
+    /* em is the width of the character m in the default font size 
+    vh is view port hight i.e., size changes according to the size of the browser
+    1vh=1/100 of window height*/
+}
+#para2{
+    /* font-family: monospace;
+    font-family: serif;
+    font-family: sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* if we apply multiple as like above if one is not avilable then it goes to the next one 
+    i.e., if 'Segoe UI' is not avilable then it goes to Tahoma  */
+}
+  /*it uses default monospace font ie., takes same width */  
+/* hangs outside the char is called serif
+sans means without 
+so sans serif is without serif */
+#para3{
+    font-weight: bolder;/*lighter,bold,older etc..*/
+    font-style: italic;
+}
+#para4{
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,25 @@
+/* 
+A,B any element matching A and/or B;
+A B any element matching B that is descendant of an element matching A i.e, a child;
+A>B any element matching B that is a direct child of an element matching A;
+A+B any element matching B that is next sibiling of an element matching A i.ie., next child of same parent;
+A~B any element matching B that is the next sibiling of an element A i.e., one of the next children of the same parent
+*/
+li{
+    font-weight: bold;
+}
+ul>li{
+    color: blue;
+}
+ol>li{
+    color: red;
+}
+ul ul{
+    font-style: italic;
+}
+ul li li{
+    color: yellowgreen;
+}
+ol~ul{
+    background-color: aqua;
+}
