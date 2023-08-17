@@ -1,0 +1,24 @@
+div.btn{
+    margin: 50px;
+    background-color: purple;
+    color: aliceblue;
+    font-size: 30pt;
+    padding: 50px;
+    width: 200px;
+    box-shadow: grey 10px 10px 10px;
+    /*for blur shadow we use three parameters otherwise for noarmal shadow
+    two parameters are enough, third parameters says how much blur we want*/
+    transition: 1s;
+    /*all the changes in css will take 1sec to apply*/
+    border-radius: 10px;
+}
+div.btn:hover{
+    transform: translate(10px,10px);
+    box-shadow: grey 20px 20px 20px;
+    transition: 0.5s;
+}
+div.btn:active{
+    transform: translate(-5px,-5px);
+    box-shadow: grey 5px 5px 3px;
+    transform: 0.2s;
+}

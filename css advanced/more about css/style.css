@@ -1,0 +1,23 @@
+div{
+    background-color: red;
+    height: 40px;
+    margin: 10px;
+}
+div:hover {
+    background-color: cyan ;
+}
+
+div:active {
+    background-color: yellow ;
+}
+
+
+
+
+
+
+
+
+
+
+

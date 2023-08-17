@@ -1,0 +1,55 @@
+.game{
+    margin: 50px;
+    background-color: skyblue;
+    border: dotted 2px;
+    height: 500px;
+    width: 500px;
+}
+.box{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+}
+.player{
+    transform: translateY(225px);
+    background-color:red;
+    animation: move 4s infinite linear;
+    animation-play-state: paused;
+}
+
+.game:active .player{
+    animation-play-state: running;
+}
+/*
+.player:active{
+     animation-play-state: running;   
+*/
+
+.enemy{
+    margin-left: 100px;
+    background-color: blueviolet;
+    animation-name:bounce ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.enemy.one{
+    animation-duration: 2s;
+}
+.two{
+    animation-duration: 5s;
+}
+
+@keyframes bounce{
+    50%{
+        transform: translateY(450px) ;
+    }
+}
+
+@keyframes move{
+    50%{
+        transform: translateY(225px) translateX(450px) ;
+    }
+}
+
+/*css-tricks it's a website*/

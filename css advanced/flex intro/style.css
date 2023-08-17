@@ -1,0 +1,26 @@
+.container{
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    display:flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /*how items within the row arer aligned*/
+    align-items: flex-end;
+    /*align items within the row perpendicularly*/
+    align-content: center;/*space-around is default*/
+    /*how all the rows together are aligned*/
+}
+.item{
+    border: dotted brown 2px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}

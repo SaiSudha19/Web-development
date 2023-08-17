@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color: brown;
+}
+@media(max-width:1200px){
+    .box{
+        background-color: royalblue;
+    }
+}
+@media(max-width:900px){
+    .box{
+        background-color: greenyellow;
+    }
+    /*max-width is width of the view port*/
+}
+@media(max-width:800px){
+    .box{
+        background-color: purple;
+    }
+}
+/*if we write these thye of properties(max-width) they always should be written in
+decending order so that step by step responsiveness will work*/
+/*this is dektop sixe approach(writing with max-width)*/
+
+
+
+
+/* @media(min-width:800px){
+    .box{
+        background-color: purple;
+    }
+}
+@media(min-width:900px){
+    .box{
+        background-color: greenyellow;
+    }
+}
+@media(min-width:1200px){
+    .box{
+        background-color: royalblue;
+    }
+} */
+/*this is mobile first approach(writing with min-width)*/

@@ -1,0 +1,71 @@
+.container{
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    z-index: 1;
+    /* background-color: lavenderblush; */
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: mediumblue;
+    color: white;
+    font-size: 20pt;
+    border: dashed black;
+    z-index: 3;
+}
+
+/*
+retative :from original position,space will be left for that element
+absolutue: from the parent,no space will be left for that element
+*/
+ .container.one>.item.four /* or .one>.four */
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+} 
+/*
+1.4 is fixed w.r.t page
+1.5 is fixed w.r.t window
+*/
+.one>.five{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+
+.container>.two{
+    position: sticky;/*it is combination of fixed and static*/
+    top: 50px;
+    /* it is static, if it violates the constrain then it will be fixed*/
+    bottom: 30px;
+    /*when we scroll down it will struck at the bottom
+    when we scrool up it will struck at the top*/
+}
+
+.container>.six{
+    position: sticky;
+    z-index: -10;/*element will be hidden under the container*/
+
+}
+.container>.siven{
+    position: sticky;
+    z-index: 2;
+}
+.container>.three{
+    position: relative;
+    z-index: 5;
+}
+/*higher z index are outside and lower  index are inside the page*/
+
+.item:nth-child(5n){
+    background-color: aqua;
+}
+
+.container:nth-child(2n){
+    background-color: lightblue;
+}

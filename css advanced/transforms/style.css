@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 30px;
+}
+.one{
+    transform: scale(2,0.5  );
+    /* trnasform means the element get drawn in it's place and then it will grid-row;
+    where as if we use height,width then it will not overlap nut here in trnsform it may overlap */
+}
+.two{
+    transform: rotateZ(30deg);
+    /* rote and rotateZ are smae by default rotate takes place around z axis */
+}
+.three{
+    transform: translateX(-10px) translateY(40px);
+    /* or we can write translate(-10px,50px); */
+    /* translate(x translate,y trnaslate); */
+}
+.four{
+    transform: translateX(100px) rotate(40deg);
+    /*amoung two functions first fun is applied first then second function is applied*/
+}
+.five{
+    transform: rotate(40deg) translateX(100px) ;
+}
+.six{
+    transform: skew(40deg);
+}
+.seven{
+    transform: skewX(30deg) skewY(-40deg) skewX(-50deg) skewY(50deg);
+}
+.eight{
+    transform: skew(10deg,30deg);
+    /* (45,45) make it vanish */
+}
+.nine{
+    transform: skew(10deg,10deg) rotate(35deg);
+}

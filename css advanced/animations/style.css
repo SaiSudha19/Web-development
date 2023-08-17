@@ -1,0 +1,46 @@
+.container{
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    /*if we give font-size 0 sapces between the boxes will be removed*/
+}
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: cadetblue;
+    border: solid 1px;
+    display: inline-block;/*if we write inline we can't set height and width of the box where as here by 
+    using inline-block we can give height and weidth*/
+
+    animation: bounce 2s infinite;
+    /* animation-iteration-count: 1; */
+}
+.one{
+    animation-timing-function: ease-in;
+    /*starts slow but ends fast*/
+}
+.two{
+    animation-timing-function: ease-out;
+    /*starts fasr but ends slowly*/
+}
+.three{
+    animation-timing-function: linear;
+    /*moves at constant speed*/
+}
+/*by default ease-in-out is used ,
+starts slow becomes fast in the middle ends slow */
+
+@keyframes bounce{
+    0%{
+              transform: scale(2);  
+    }
+    50%{
+            transform: translateY(300px);
+            background-color: deeppink;
+    }
+    100%{
+
+    }
+}
