@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log('World')
+        alert('hey')
+     </script>
+    <script async defer src="script.js">
+        // async defer then html will be fully loaded
+        console.log('from ext script')//if src is written then body of script is not evaluated
+    </script>
+</head>
+<body>
+    <h1>JS Intro</h1>
+    <script type="text/javascript">
+        console.log('Hello')
+         window.alert('Hey There') //or alert('hey there')
+    </script>
+</body>
+</html>

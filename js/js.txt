@@ -1,0 +1,20 @@
+JAVA SCRIPT
+
+every data type is defined using -let
+clear()-clears all the data
+
+strongly typed language vs weekly typed language
+-typed means data typed
+-strongly typed are there is a option to create a variable where data types are strictly defined .
+-examples of strongly typed languages:java,cpp
+-examples of weekly typed languages:java script
+
+
+statically typed language vs dynamically typed languages
+-some langunagaes are compiled and some are interpreted
+-if we do step compilation and we check data type and we got error before the run time is statically typed
+-static are more stronger than dyanamic 
+-ex : cpp,java
+-languages where data type checking can be happen at the compile time stage that is known as statically language
+-interpretted languages are dynamically typed as there is no compilation stage and no data types
+-we can change the data type in dynamically language
